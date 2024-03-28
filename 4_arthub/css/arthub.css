@@ -1,0 +1,105 @@
+
+* body {
+  font-family: Pretendard, Noto Sans KR, Dotum, Helvetica, AppleGothic, Gulim, Roboto, 굴림, Sans-serif;}
+
+.heder-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 84px;
+}
+.header-top-logo {
+  width: 150px;
+}
+
+.heder-top-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heder-top-menu-right-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-logo {
+  width: 50px;
+  height: 50px;
+}
+
+/* 헤더 미들 부분 */
+
+.heder-middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #e5e5e5;
+  width: 100%;
+  background: #fff;
+  padding: 20px 0;}
+  
+.heder-middle> button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heder-middle> button {
+    background-color:#5285a2;
+    color: #fff;
+    border:none; 
+    border-radius:44.5px; 
+    padding:12px;
+    min-width: 110px;
+    margin: 15px;
+
+}
+/* 헤더 바텀 부분 */
+.heder-bottom {
+  background-image: url(../img/heder-bottom.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+.other-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+/* 메인 */
+
+.main-top {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  width: 100%;
+  background: #fff;
+  padding: 100px 0;
+}
+
+.main-button {
+  background-color:#fff;
+  border-color:#5285a2;
+  color: #5285a2; 
+  border-radius:44.5px; 
+  padding:20px;
+  min-width: 240px;
+}
+
+.main-circle {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 568px;
+  max-height: 568px;
+  margin: 0 auto;
+}
+.other-circle1{
+  display: flex;
+  justify-content: space-between;
+  padding:20px;
+}

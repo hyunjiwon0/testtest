@@ -1,0 +1,308 @@
+/*헤더 전체 설정*/
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 84px;
+}
+/*아트 허브 로고*/
+header > #logoImg {
+    width: 110px;
+    height: 37.9px;
+}
+
+/*헤더 중앙 링크*/
+header > #hub {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 20px;
+}
+
+/*우측 메뉴 시작*/
+header > #menus {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+/*음악바 구현 시작*/
+header > #menus > #musicLogo {
+    display: flex;
+    align-items: center;
+}
+header > #menus > #musicLogo > .musicBar {
+    background-color: #5285a2;
+    width: 2px;
+    margin: 0px 2px 0px 0px;
+}
+header > #menus > #musicLogo > .musicBar:first-child,
+header > #menus > #musicLogo > .musicBar:nth-child(2),
+header > #menus > #musicLogo > .musicBar:nth-child(9) {
+    height: 1px;
+}
+header > #menus > #musicLogo > .musicBar:nth-child(3),
+header > #menus > #musicLogo > .musicBar:nth-child(6) {
+    height: 6px;
+}
+header > #menus > #musicLogo > .musicBar:nth-child(4) {
+    height: 12px;
+}
+header > #menus > #musicLogo > .musicBar:nth-child(5) {
+    height: 16px;
+}
+header > #menus > #musicLogo > .musicBar:nth-child(7) {
+    height: 3px;
+}
+header > #menus > #musicLogo > .musicBar:nth-child(8) {
+    height: 4px;
+}
+/*음악바 구현 끝*/
+/*우측 메뉴 끝*/
+
+main {
+    /* 임시로 지정한 높이 */
+    height: 100vh;
+}
+
+  /* 헤더 미들 부분 */
+  
+  .heder-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #e5e5e5;
+    width: 100%;
+    background: #fff;
+    padding: 10px 0;}
+    
+  .heder-middle> button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .heder-middle> button {
+      background-color:#5285a2;
+      color: #fff;
+      border:none; 
+      border-radius:44.5px; 
+      padding:12px;
+      min-width: 110px;
+      margin: 15px;
+  
+  }
+  /* 헤더 바텀 부분 */
+  .heder-bottom {
+    background-image: url(../imgs/heder-bottom.png);
+    background-size: cover;
+    border-image-repeat: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+  }
+
+  .heder-bottom>p{
+    font-size: 50px;
+    line-height: 59px;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+  }
+  .heder-bottom>span{
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+  }
+  .other-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+  /* 메인 */
+
+  #main{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main-top {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    background: #fff;
+    padding: 100px 0;
+  }
+    /* 메인 */
+  .main-button {
+    background-color:#fff;
+    border-color:#5285a2;
+    color: #5285a2; 
+    border-radius:44.5px; 
+    padding:20px;
+    min-width: 210px;
+  }
+  .main-circle {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 568px;
+    max-height: 568px;
+    margin: 0 auto;
+  }
+  .other-circle1 {
+
+    justify-content: space-between;
+    padding: top 50px;
+  }
+
+  .other-circle2 {
+    display: flex;
+    justify-content: space-between;
+    padding: top 50px;
+  }
+
+  .other-circle3 {
+    display: flex;
+    align-items: center;
+    margin-left: 700px;}
+
+/* 드롭다운 */
+.dropdown{
+    position : relative;
+    display : inline-block;
+  }
+  
+  .drop-down-1{
+    display : none;
+    position : absolute;
+    flex-direction: column;
+    z-index : 1; 
+    /*다른 요소들보다 앞에 배치*/
+  }
+  
+  .drop-down-1{
+    display : block;
+  }
+  
+  .drop-down-1:hover .drop-down{
+    display: block;
+  }
+
+
+/*footer 시작*/
+#footerInner {
+    padding: 50px 110px 20px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 35px;
+    position: relative;
+}
+#footerInner > #footerLogo {
+    width: 116.48px;
+    height: 51px;
+    align-self: top;
+}
+#footerInner > #infoContainer {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+/* 세로줄 설정 */
+.verticalLine {
+    display: inline-block;
+    width: 2px;
+    height: 16px;
+    margin: 0px 20px;
+    background-color: #e5e5e5;
+}
+/*링크 모음 시작*/
+#infoContainer > #linkContainer {
+    margin-bottom: 10px;
+}
+#infoContainer > #linkContainer > .linkSection {
+    float: left;
+}
+#infoContainer > #copyRight {
+    font-family: "Noto Serif", sans-serif;
+}
+/*링크 모음 끝*/
+/* 주소 텍스트 */
+#infoContainer > #addressContainer {
+    display: flex;
+    margin-bottom: 30px;
+}
+/* 드롭다운 시작 */
+#footerInner > #dropDownWrapper > #dropDownTitle {
+    width: 200px;
+    padding: 16px 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5e5e5;
+    cursor: pointer;
+}
+#footerInner > #dropDownWrapper > #dropDownTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+}
+#footerInner > #dropDownWrapper #dropDownIcon {
+    /* 삼각형 만들기https://fromnowwon.tistory.com/entry/css-triangle-bubble */
+    width: 0px;
+    height: 0px;
+    /*일반 삼각형일 땐 bottom만, 역삼각형일 땐 top만 색을 갖는다. */
+    border-top: 10px solid #5285a2;
+    border-bottom: 10px solid transparent;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    /*일반 삼각형일 땐 -5px, 역삼각형일 땐 5px*/
+    transform: translate(0, 5px);
+}
+#footerInner > #dropDownWrapper > #familyLink {
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5e5e5;
+    padding: 20px;
+    display: none;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 135px;
+    /*컨텐츠가 영역을 넘어가면 스크롤 생성*/
+    overflow-y: auto;
+    transform: translate(0, -28px);
+}
+#familyLink > .dropDownContents {
+    line-height: 35px;
+}
+#familyLink > .dropDownContents > .dropDownLink {
+    color: #999;
+}
+/*스크롤바 설정 시작*/
+/*width를 설정해야 스크롤바 뒷 배경이 숨겨진다*/
+#familyLink::-webkit-scrollbar {
+    width: 5px;
+}
+#familyLink::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+#familyLink::-webkit-scrollbar-thumb {
+    background: #5285a2;
+    border-radius: 12px 12px 12px 12px;
+}
+#familyLink::-webkit-scrollbar-button:vertical:no-button {
+    display: none;
+}
